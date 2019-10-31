@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/category/{category}', 'CategoryController@edit')->name('category.edit');
+
+Route::resource('/category','CategoryController');

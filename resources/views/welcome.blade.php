@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://laravel.com/docs"></a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
@@ -93,6 +93,37 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <!-- <div class="left main-sidebar">
+	
+		            <div class="sidebar-inner leftscroll">
+
+			            <div id="sidebar-menu">
+        
+                        <ul>
+                            <li class="submenu">
+                                <a href="#"><i class="fa fa-fw fa-bars"></i><span> Dashboard </span> </a>
+                            </li>
+                        
+                            <li class="submenu">
+                                <a href="#"><i class="fa fa-fw fa-table"></i> <span>Administrasi Sistem</span> <span class="menu-arrow"></span></a>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Product</a></li>
+                                        <li><a href="{{ route('category.index')}}">Category</a></li>
+                                    </ul>
+                            </li>
+                        
+                        </ul>
+
+                        <div class="clearfix"></div>
+
+			            </div>
+        
+			            <div class="clearfix"></div>
+
+		            </div>
+
+	            </div> -->
+                
             </div>
         </div>
     </body>
